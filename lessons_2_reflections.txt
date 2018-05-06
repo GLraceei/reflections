@@ -8,11 +8,13 @@ change?
   git add
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
+  branches allow different people to make different versions of the code and keep them all organized.
 How do the diagrams help you visualize the branch structure?
-
+  So you can follow one branch to the current commit or see where they diverge or converge.
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
+  the code is merged together, there may be conflicts. It's done the way it because they've become one
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+  automatic merging doesn't always work, it's consistent in the way it merges.
+  Manual merging may not be necessary and takes a lot of time if there are a lot of files. But you won't get any conflicts if done correctly
